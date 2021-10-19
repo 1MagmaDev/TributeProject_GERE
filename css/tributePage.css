@@ -1,12 +1,12 @@
+/*resets browser defaults*/
 * {
-    margin: 0;
-    /* resets all margins to 0, and accept custom CSS declarations if any*/
+    margin: 0;  /* resets all margins to 0, and accept custom CSS declarations if any*/
     padding: 2px;
-    box-sizing: border-box;
-    /* resets  default box model where box dimensions are affected by border thickness and padding.; forces boxes to be exact sizes in css declarations*/
+    box-sizing: border-box; /* resets  default box model where box dimensions are affected by border thickness and padding.; forces boxes to be exact sizes in css declarations*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Styles the nav section*/
 nav {
     text-align: center;
     background-color: #ee7752;
@@ -14,19 +14,21 @@ nav {
     width: 100%;
 }
 
+/*Styles the list in nav*/
 nav li {
-    list-style-type: none;
-    /*Removes the bullets;navigation bar does not need list markers*/
+    list-style-type: none;  /*Removes the bullets;navigation bar does not need list markers*/
     display: inline-block;
     margin: 15px 20px;
     padding: 4px;
     border: 1px sold grey;
 }
 
+/*Styles Header tag to be centered*/
 header {
     text-align: center;
 }
 
+/*Styles the main image of Chris Do*/
 .heroimage {
     display: block;
     border-radius: 75px;
@@ -35,21 +37,25 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*Styles the figure html tag*/
 figure {
     margin-bottom: 70px;
     padding: 10px;
 }
 
+/*Styles aside section*/
 aside {
     margin-bottom: 45px;
     max-width: 70%;
 }
 
+/*Styles the footer*/
 footer {
     background-color: rgba(209, 209, 209, 0.459);
     font-size: 12px;
     width: 100%;
     padding: 20px;
+     text-align: center;
 }
 
 
@@ -104,7 +110,3 @@ body {
         background-position: 0% 50%;
     }
 }
-#ee7752,
-#e73c7e,
-#23a6d5,
-#23d5ab
